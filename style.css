@@ -1,0 +1,86 @@
+body {
+    background-image: url('imagen1.jpeg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Chela One', sans-serif;
+}
+
+.navbar-brand h1 {
+    font-family: 'Playwrite CU', sans-serif;
+}
+
+#user {
+    width: 40px;
+    height: 40px;
+}
+
+.search-input {
+    border-radius: 20px;
+    padding: 5px;
+}
+
+.search-button {
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+#title h1, #title h2 {
+    font-size: 2rem;
+}
+
+@media (max-width: 576px) {
+    #title h1 {
+        font-size: 1.5rem;
+    }
+    #title h2 {
+        font-size: 2rem;
+    }
+}
+
+/* Info Section */
+
+#info {
+    border-radius: 20px;
+}
+
+#info .row a {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333;
+    text-decoration: none;
+    
+}
+
+#info .row a:hover {
+    color: #ff9900;
+}
+
+.divider {
+    width: 1px;
+    height: 100px;
+    background-color: #979dad;
+    margin: 0 auto;
+}
+
+#images .img-fluid {
+    max-width: 100%;
+    border-radius: 20px;
+    transition: transform 0.3s;
+}
+
+#images .img-fluid:hover {
+    transform: scale(1.05);
+}
+
+@media (max-width: 576px) {
+    #images .img-fluid {
+        width: 100%;
+        height: auto;
+    }
+}

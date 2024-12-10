@@ -1,0 +1,28 @@
+body {
+    background-color:white;
+}
+
+
+.navbar {
+    background-color: #212529;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Chela One', cursive;
+}
+
+.container {
+    margin-top: 20px;
+}
+
+.table {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.btn {
+    border-radius: 50px;
+}
